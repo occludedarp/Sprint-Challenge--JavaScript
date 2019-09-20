@@ -44,7 +44,7 @@ a method exists as a function on a property of an object literal.
 
 3. What is closure?
 
-closure is the boundary between functions as they are nested within one another. This boundary defines the limits of how information is able to pass between functions, allowing nested functions access to information that is declared in 'housing' layers outside of it while limiting the ability of 'housing' functions to access any information that has been declared from a boundary that is 'nested' inside of it
+closure is the boundary between functions as they are nested within one another. This boundary defines the limits of how information is able to pass between functions, allowing nested functions access to information that is declared in 'housing' layers outside of it while limiting the ability of 'housing' functions to access any information that has been declared within a boundary that is 'nested' inside of it
 ex.) { housing  {nesting} }
 
 4. Describe the four rules of the 'this' keyword.

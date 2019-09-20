@@ -54,7 +54,7 @@ console.log(dinosaur1.period);
 
 
 // Create a new roar method for the tyrannosaurus.  When called, return "RAWERSRARARWERSARARARRRR!" Log the result.
-console.log(dinosaur1.roar);
+console.log(dinosaur1.roar());
 
 
 // ==== Arrays ====
@@ -187,7 +187,6 @@ const populationTotal = zooAnimals.reduce(function(accumulator, currentItem){
   return accumulator + currentItem.population
 }, 0 );
 
-
 console.log(populationTotal);
 
 
@@ -196,4 +195,13 @@ console.log(populationTotal);
 Stretch: If you haven't already, convert your array method callbacks into arrow functions.
 
 */
+
+nameAndSciName = (animal) =>  animalNames.push(`${animal.animal_name} ${animal.scientific_name}`)
+console.log(animalNames);
+
+makeLower = (animal) => lowerCase.push(animal.animal_name.toLowerCase());
+console.log(lowerCase); 
+
+
+
 
