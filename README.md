@@ -51,9 +51,9 @@ ex.) { housing  {nesting} }
 
 1 Window/Global Object binding: the default object that this refers to, the entire browser window
 
-2 Implicit binding: the use of dot notation employs this. as a reference to the object that encloses your current scope
+2 Implicit binding: sets this to whatever is left of the dot. the use of dot notation employs this. as a reference to the object that encloses your current scope
 
-3 New binding: after this. has been implicitly bound within the context of a class constructor object, the keyword 'new' subsequently binds this. to any newly declared objects derived from the class constructor
+3 New binding: after this. has been implicitly bound within the context of a class constructor object, the keyword 'new' subsequently binds this. to any newly declared object literals derived from the class constructor
 
 4 Explicit binding: assigning this. to an object of your choosing using .call() .apply() or .bind()
 
